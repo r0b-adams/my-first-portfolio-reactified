@@ -1,4 +1,5 @@
 import React from 'react';
+import resume from './Adams_Robert_Resume.pdf'; // tells webpack to use this file
 
 export default function Header() {
 
@@ -20,7 +21,9 @@ export default function Header() {
                             <a class="link-color" href="#contact">Contact</a>
                         </li>
                         <li>
-                            <a class="link-color" href="./Assets/Adams_Robert Resume.pdf">Resume</a>
+                            {/* set href to static file path */}
+                            {/* refer to static file like a variable */}
+                            <a class="link-color" href={resume}>Resume</a>
                         </li>
                     </ul>
                 </nav>
