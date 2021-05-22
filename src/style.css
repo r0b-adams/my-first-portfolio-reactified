@@ -1,0 +1,233 @@
+:root {
+    /* declares content section width proportions */
+    --margin-percent: 20%;
+    --center-percent: 60%;
+}  
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: white;
+}
+
+header {
+    border-bottom: 5px solid #152852;
+}
+
+footer {
+    border-top: 5px solid #4B3D60;
+}
+
+/* default name size for desktop */
+header h1 {
+    font-size: 36px;
+}
+
+/* desktop nav styling */
+nav {
+    width: var(--center-percent);
+    display: flex;
+    justify-content: flex-end;
+}
+
+p {
+    padding: 10px;
+    text-align: justify;
+} 
+
+li {
+    text-align: center;
+}
+
+/* images fill to fit project card containers */
+img {
+    width: 100%;
+    height: 100%;
+}
+
+/* handles common header/footer styling */
+.header-footer-style {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    color: white;
+    background-color: #2d3436;
+}
+
+/* handles styling of list items */
+.nav-ul-style {
+    display: flex;
+    font-size: 20px;
+    width: 100%;
+    justify-content: space-evenly;
+    padding: 5px 10px;
+}
+
+/* handles styling of main section headings */
+.main-heading-style {
+    width:var(--margin-percent);
+    text-align: right;
+    font-size: 26px;
+    padding: 10px 10px 10px 0px;
+    border-right:5px double #FD5E53;
+}
+
+/* contains left headings and main content */
+.main-box {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+/* contains project cards and paragraphs */
+.content-box {
+    display: flex;
+    flex-wrap: wrap;
+    width: var(--center-percent);
+    padding-left: 5px;
+}
+
+/* holds images and title cards */
+.project-card {
+    width: 50%;
+    max-height: 400px;
+    padding: 5px;
+    border: 5px solid white;
+    background-image: linear-gradient(to right, #08183A, #152852, #4B3D60, #FD5E53, #FC9C54, #FFE373);
+
+}
+
+/* displays project titles and languages */
+.title-card {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    bottom: 60px;
+    padding:5px;
+    color:white;
+    background-image: linear-gradient(to right, #08183A, #152852, #4B3D60,#FD5E53);
+}
+
+/* governs project name on title card */
+.title-card-heading {
+    font-size: 18px;
+    padding-bottom: 5px;
+}
+
+/* governs project language on title cards */
+.title-card-lang {
+    font-size: 14px;
+}
+
+/* header/footer text common styling */
+.link-color {
+    color: white;
+    text-decoration: underline;
+}
+
+/* styles my name */
+#my-name {
+    font-size: 26px;
+}
+
+/* displays background image and positions the subtitle */
+#sub-img {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    min-height: 200px;
+    background-image: url(https://raw.githubusercontent.com/comatosino/portfolio/main/Assets/images/sunset.jpg);
+    background-position: center;
+}
+
+/* styles subtitle for desktop */
+#subtitle {
+    padding: 10px 10px 10px 0px;
+    color: white;
+    background-color: #2d3436;
+    width: 100%;
+    font-size: 18px;
+    text-align: right;
+    border-top: 5px solid #0a3d62;
+}
+
+/* top project card covers the width of its container */
+#featured {
+    width: 100%;
+}
+
+/* govern style behavior at mobile device screen widths */
+@media screen and (max-width: 992px) {
+    .main-heading-style {
+        font-size: 36px;
+        padding: 0px;
+        text-align: center;
+        width: 100%;
+        background-color: #08183A;
+        color: white;
+        border: none;
+    }
+
+    .project-card {
+        width: 100%;
+    }
+
+    .main-box {
+        margin:0;
+    }
+
+    .title-card {
+        width: 100%;
+    }
+
+    .content-box {
+        width: 100%;
+        text-align: center;
+        padding:0px;
+    }
+
+    nav {
+        width: 100%;
+    }
+
+    #my-name {
+        font-size: 48px;
+    }
+
+    #subtitle {
+        text-align: center;
+        padding: 0px;
+    }
+}
+
+/* style effect when cursor hovers over a link */
+a:hover {
+    opacity: 0.5;
+}
+
+/* all project cards fill screen at this viewport width */
+@media screen and (max-width: 768px) {
+.project-card {
+    width: 100%;
+}
+
+}
+
+/* nav lists form colums at this width */
+@media screen and (max-width: 556px) {
+    .nav-ul-style {
+        flex-direction: column;
+        padding: 0px;
+    }
+
+    li {
+        padding: 5px 0px;
+    }
+
+    li:nth-child(2n) {
+        background-color: #08183A;
+    }
+
+}
