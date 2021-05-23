@@ -57,7 +57,7 @@ export default function index() {
                     </section>
                 </section>
 
-{/* Factor out a project card */}
+                {/* Factor out a project card */}
                 <section className="project-card">
                     <a href="https://pantrimonium.herokuapp.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/comatosino/portfolio/main/Assets/images/pantrimonium-screenshot.jpg" alt="pantrimonium"/></a>
                     <section className="title-card">
@@ -73,7 +73,7 @@ export default function index() {
                     </section>
                 </section>
 
-{/* Factor out a project card */}
+                {/* Factor out a project card */}
                 <section className="project-card">
                     <a href="https://github.com/comatosino/e-commerce-back-end" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/comatosino/e-commerce-back-end/develop/assets/images/e-commerce-backend.gif" alt="e-commerce back-end"/></a>
                     <section className="title-card">
@@ -89,9 +89,9 @@ export default function index() {
                     </section>
                 </section>
 
-{/* Factor out a project card */}
+                {/* Factor out a project card */}
                 <section className="project-card">
-                    <a href="hthttps://github.com/comatosino/employee-tracker" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/comatosino/employee-tracker/develop/assets/employee-tracker.gif" alt="e-commerce back-end"/></a>
+                    <a href="https://github.com/comatosino/employee-tracker" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/comatosino/employee-tracker/develop/assets/employee-tracker.gif" alt="e-commerce back-end"/></a>
                     <section className="title-card">
                         <h2 className="title-card-heading">
                             Employee Tracker
@@ -105,7 +105,7 @@ export default function index() {
                     </section>
                 </section>
 
-{/* Factor out a project card */}
+                {/* Factor out a project card */}
                 <section className="project-card">
                     <a href="https://robs-employee-directory.herokuapp.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/comatosino/employee-directory/develop/emp-dir.gif" alt="e-commerce back-end"/></a>
                     <section className="title-card">
