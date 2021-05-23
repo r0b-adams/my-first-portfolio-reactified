@@ -16,7 +16,7 @@ This project showcases what I've learned so far in my coding bootcamp by applyin
 
 Click the image below to check out my portfolio!
 
-[![screenshot](./Assets/images/portfolio-capture.jpg)](https://comatosino.github.io/react-portfolio/
+[![screenshot](./Assets/images/portfolio-capture.jpg)](https://comatosino.github.io/react-portfolio/)
 
 ## Questions
 
