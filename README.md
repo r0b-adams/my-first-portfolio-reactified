@@ -16,7 +16,7 @@ Utilizing a flexbox layout method simplifies mobile responsiveness for the devel
 
 Click the image below to check out my portfolio!
 
-[![screenshot](./Assets/images/portfolio-capture.jpg)](https://comatosino.github.io/react-portfolio/)
+[![screenshot](./public/assets/images/portfolio-capture.jpg)](https://comatosino.github.io/react-portfolio/)
 
 ## Questions
 
