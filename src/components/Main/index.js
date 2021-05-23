@@ -22,7 +22,7 @@ export default function index() {
                 
                 <section className="content-box">
                     <p>
-                        Hello! I am learning full-stack web development through the University of Washington in partnership with Trilogy Education Services. 
+                        Hello! I am learning full-stack web development through the University of Washington in partnership with Trilogy Education Services. I couldn't be more excited to see what's next as I learn programming!
                     </p>
                     <p>
                         Check out some of my recent projects below!
@@ -41,6 +41,7 @@ export default function index() {
             {/* make a content box component for the project cards */}
             <section className="content-box">
 
+                {/* Factor out a project card */}
                 <section className="project-card">
                     <a href="https://gushihiro.github.io/Vedomy/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/Gushihiro/Project-Face-Space/develop/assets/images/vedomy.PNG" alt="front page of Vědomý webapp"/></a>
                     <section className="title-card">
@@ -56,6 +57,7 @@ export default function index() {
                     </section>
                 </section>
 
+{/* Factor out a project card */}
                 <section className="project-card">
                     <a href="https://pantrimonium.herokuapp.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/comatosino/portfolio/main/Assets/images/pantrimonium-screenshot.jpg" alt="pantrimonium"/></a>
                     <section className="title-card">
@@ -71,6 +73,7 @@ export default function index() {
                     </section>
                 </section>
 
+{/* Factor out a project card */}
                 <section className="project-card">
                     <a href="https://github.com/comatosino/e-commerce-back-end" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/comatosino/e-commerce-back-end/develop/assets/images/e-commerce-backend.gif" alt="e-commerce back-end"/></a>
                     <section className="title-card">
@@ -86,47 +89,50 @@ export default function index() {
                     </section>
                 </section>
 
+{/* Factor out a project card */}
                 <section className="project-card">
-                    <a href="https://github.com/comatosino/e-commerce-back-end" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/comatosino/e-commerce-back-end/develop/assets/images/e-commerce-backend.gif" alt="e-commerce back-end"/></a>
+                    <a href="hthttps://github.com/comatosino/employee-tracker" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/comatosino/employee-tracker/develop/assets/employee-tracker.gif" alt="e-commerce back-end"/></a>
                     <section className="title-card">
                         <h2 className="title-card-heading">
-                            E-Commerce Back-End
+                            Employee Tracker
                         </h2>
                         <h3 className="title-card-lang">
-                            Express.js/Sequelize
+                            Node/MySQL/Inquirer
                         </h3>
                         <h3 className="title-card-lang">
-                            <a className="link-color" href="https://github.com/comatosino/e-commerce-back-end" target="_blank" rel="noreferrer">GitHub</a>
+                            <a className="link-color" href="https://github.com/comatosino/employee-tracker" target="_blank" rel="noreferrer">GitHub</a>
                         </h3>
                     </section>
                 </section>
 
+{/* Factor out a project card */}
                 <section className="project-card">
-                    <a href="https://github.com/comatosino/e-commerce-back-end" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/comatosino/e-commerce-back-end/develop/assets/images/e-commerce-backend.gif" alt="e-commerce back-end"/></a>
+                    <a href="https://robs-employee-directory.herokuapp.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/comatosino/employee-directory/develop/emp-dir.gif" alt="e-commerce back-end"/></a>
                     <section className="title-card">
                         <h2 className="title-card-heading">
-                            E-Commerce Back-End
+                            Employee Directory
                         </h2>
                         <h3 className="title-card-lang">
-                            Express.js/Sequelize
+                            React
                         </h3>
                         <h3 className="title-card-lang">
-                            <a className="link-color" href="https://github.com/comatosino/e-commerce-back-end" target="_blank" rel="noreferrer">GitHub</a>
+                            <a className="link-color" href="https://github.com/comatosino/team-profile-generator" target="_blank" rel="noreferrer">GitHub</a>
                         </h3>
                     </section>
                 </section>
 
+                {/* Factor out a project card */}
                 <section className="project-card">
-                    <a href="https://github.com/comatosino/e-commerce-back-end" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/comatosino/e-commerce-back-end/develop/assets/images/e-commerce-backend.gif" alt="e-commerce back-end"/></a>
+                    <a href="https://comatosino.github.io/weather-dashboard/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/comatosino/weather-dashboard/develop/assets/demo-gif.gif" alt="e-commerce back-end"/></a>
                     <section className="title-card">
                         <h2 className="title-card-heading">
-                            E-Commerce Back-End
+                            Weather Dashboard
                         </h2>
                         <h3 className="title-card-lang">
-                            Express.js/Sequelize
+                            HTML/CSS/JavaScript
                         </h3>
                         <h3 className="title-card-lang">
-                            <a className="link-color" href="https://github.com/comatosino/e-commerce-back-end" target="_blank" rel="noreferrer">GitHub</a>
+                            <a className="link-color" href="https://github.com/comatosino/weather-dashboard/" target="_blank" rel="noreferrer">GitHub</a>
                         </h3>
                     </section>
                 </section>
