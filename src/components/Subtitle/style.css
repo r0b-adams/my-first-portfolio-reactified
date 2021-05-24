@@ -1,0 +1,24 @@
+/* 
+This file is not currently in use
+As the portfolio is updated, this file structure
+will help to modify individual components
+
+can wrap the whole component in a class and
+refer to children components with selectors
+
+in the component file:
+<div className="this-component">
+    CHILDREN ELEMENTS
+<div/>
+
+e.g.
+
+.this-component {
+    foo: bar
+}
+
+.this-component h1 {
+    fizz: buzz
+}
+
+*/
