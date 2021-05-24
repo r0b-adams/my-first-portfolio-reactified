@@ -1,0 +1,44 @@
+[
+    {
+        "projectName":"Vědomý",
+        "projectLangs":"HTML/CSS/JavaScript",
+        "deployLink": "https://gushihiro.github.io/Vedomy",
+        "githubLin":"https://github.com/Gushihiro/Project-Face-Space",
+        "imgLink":"https://raw.githubusercontent.com/Gushihiro/Project-Face-Space/develop/assets/images/vedomy.PNG"
+    },
+    {
+        "projectName":"Pantrimonium",
+        "projectLangs":"Express.js/Sequelize/Handlebars.js",
+        "deployLink": "https://pantrimonium.herokuapp.com",
+        "githubLink":"https://github.com/comatosino/Pantrimonium",
+        "imgLink":"https://raw.githubusercontent.com/comatosino/portfolio/main/Assets/images/pantrimonium-screenshot.jpg"
+    },
+    {
+        "projectName":"E-Commerce Back-End",
+        "projectLangs":"Express.js/Sequelize",
+        "deployLink": "https://github.com/comatosino/e-commerce-back-end",
+        "githubLink":"https://github.com/comatosino/e-commerce-back-end",
+        "imgLink":"https://raw.githubusercontent.com/comatosino/e-commerce-back-end/develop/assets/images/e-commerce-backend.gif"
+    },
+    {
+        "projectName":"Employee Tracker",
+        "projectLangs":"Node/MySQL/Inquirer",
+        "deployLink": "https://github.com/comatosino/employee-tracker",
+        "githubLink":"https://github.com/comatosino/employee-tracker",
+        "imgLink":"https://raw.githubusercontent.com/comatosino/employee-tracker/develop/assets/employee-tracker.gif"
+    },
+    {
+        "projectName":"Employee Directory",
+        "projectLangs":"React",
+        "deployLink": "https://robs-employee-directory.herokuapp.com",
+        "githubLink":"https://github.com/comatosino/team-profile-generator",
+        "imgLink":"https://raw.githubusercontent.com/comatosino/employee-directory/develop/emp-dir.gif"
+    },
+    {
+        "projectName":"Weather Dashboard",
+        "projectLangs":"HTML/CSS/JavaScript",
+        "deployLink": "https://comatosino.github.io/weather-dashboard",
+        "githubLink":"https://github.com/comatosino/weather-dashboard/",
+        "imgLink":"https://raw.githubusercontent.com/comatosino/weather-dashboard/develop/assets/demo-gif.gif"
+    }
+]
