@@ -6,6 +6,8 @@ import ContentBox from '../ContentBox';
 
 export default function ProjectPage(props) {
 
+
+
     return (
 
     <MainBox>
