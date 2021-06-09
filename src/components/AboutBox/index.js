@@ -4,7 +4,7 @@ export default function index() {
     return (
         <div>
             <p>
-                Hello! I am learning full-stack web development through the University of Washington in partnership with Trilogy Education Services. I couldn't be more excited to see what's next as I learn programming!
+                Hello, I'm Robert! I'm a recent graduate of the University of Washington Coding Bootcamp! I'm just getting started and I can't wait to see what's next as I develop my skills and take the exciting step into a career in tech!
             </p>
             <p>
                 Check out some of my recent projects below!
