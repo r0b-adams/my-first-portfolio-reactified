@@ -1,5 +1,12 @@
 [
     {
+        "projectName":"Console Log",
+        "projectLangs":"MongoDB, Express.js, React.js, TailwindCSS",
+        "deployLink": "https://sar-console-log.herokuapp.com/",
+        "githubLink":"https://github.com/comatosino/Console-Log",
+        "imgLink":"https://raw.githubusercontent.com/comatosino/Console-Log/develop/public/assets/images/webapp-screenshot.jpg"
+    },
+    {
         "projectName":"Vědomý",
         "projectLangs":"HTML/CSS/JavaScript",
         "deployLink": "https://gushihiro.github.io/Vedomy",
@@ -12,13 +19,6 @@
         "deployLink": "https://pantrimonium.herokuapp.com",
         "githubLink":"https://github.com/comatosino/Pantrimonium",
         "imgLink":"https://raw.githubusercontent.com/comatosino/portfolio/main/Assets/images/pantrimonium-screenshot.jpg"
-    },
-    {
-        "projectName":"E-Commerce Back-End",
-        "projectLangs":"Express.js/Sequelize",
-        "deployLink": "https://github.com/comatosino/e-commerce-back-end",
-        "githubLink":"https://github.com/comatosino/e-commerce-back-end",
-        "imgLink":"https://raw.githubusercontent.com/comatosino/e-commerce-back-end/develop/assets/images/e-commerce-backend.gif"
     },
     {
         "projectName":"Employee Tracker",
